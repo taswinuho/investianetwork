@@ -22,35 +22,35 @@ export const NavHeader = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <div className="text-xl font-semibold text-secondary">
+          <div className="text-xl font-semibold text-secondary hover:text-primary transition-colors duration-300 cursor-pointer">
             InvestorTinder
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <a
               href="#features"
-              className="text-secondary/80 hover:text-secondary transition-colors"
+              className="text-secondary/80 hover:text-secondary transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-primary after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
             >
               Features
             </a>
             <a
               href="#how-it-works"
-              className="text-secondary/80 hover:text-secondary transition-colors"
+              className="text-secondary/80 hover:text-secondary transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-primary after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
             >
               How it works
             </a>
             <Button
               variant="ghost"
-              className="text-secondary hover:text-secondary/80"
+              className="text-secondary hover:text-secondary/80 hover:scale-105 transition-all duration-300"
             >
               Log in
             </Button>
-            <Button className="bg-primary text-white hover:bg-primary/90">
+            <Button className="bg-primary text-white hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-primary/25">
               Get Started
             </Button>
           </nav>
           <Button
             variant="ghost"
-            className="md:hidden"
+            className="md:hidden hover:scale-105 transition-transform duration-300"
             size="icon"
           >
             <svg
