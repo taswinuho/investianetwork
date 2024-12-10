@@ -126,7 +126,7 @@ const CredibilityCheck = () => {
                         <Progress
                           value={Math.random() * 100}
                           className="h-2"
-                          indicatorClassName={`bg-primary/70`}
+                          indicatorClassName="bg-primary/70"
                         />
                       </motion.div>
                     )
